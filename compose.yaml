@@ -1,0 +1,12 @@
+﻿services:
+  chatbot:
+    image: chatbot
+    build:
+      context: .
+      dockerfile: ChatBot/Dockerfile
+
+  chatbot-1:
+    image: chatbot-1
+    build:
+      context: .
+      dockerfile: ChatBot/Dockerfile
